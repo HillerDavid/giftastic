@@ -1,8 +1,8 @@
 
 $(document).ready(function () {
-    
+
     //Starting Array
-    var topics = ["labrador", "pug", "dalmation"]
+    var topics = ["batman", "spiderman", "deadpool"]
 
     //Function to generate buttons from array
     function loadButtons() {
@@ -54,7 +54,7 @@ $(document).ready(function () {
             console.log(response)
             var results = response.data
             for (var i = 0; i < results.length; i++) {
-                var displayDiv = $("<div>")
+                var displayDiv = $("<div>").addClass("gif-div")
                 var rating = $("<p>").text(results[i].rating)
                 var gifImage = $("<img>").attr("src", results[i].images.fixed_height_still.url).attr("data-still", results[i].images.fixed_height_still.url).attr("data-animate", results[i].images.fixed_height.url).attr("data-state", "still").addClass("gif")
                 displayDiv.append(rating, gifImage)

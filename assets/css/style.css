@@ -4,6 +4,7 @@
 
 body {
     background-color: rgba(100, 109, 237, 0.973);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 button {
@@ -12,7 +13,31 @@ button {
     background-color: purple;
     color: rgb(240, 211, 84);
     font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 1em;
-    
+    padding: 1em;   
+}
+
+form {
+    background-color: gold;
+    color: purple;
+    font-family: cursive;
+    border: 0.05em solid purple;
+    padding: 10px;
+}
+
+p {
+    font-weight: bolder;
+    padding: .5em;
+    background-color: purple;
+    color: rgb(240, 211, 84);
+    width: fit-content;
+    border: .05em solid gold
+}
+
+#gif-button-section {
+    margin-bottom: 2em;
+}
+
+.gif-div {
+    width: fit-content;
+    margin: 0 0 1em 0
 }
