@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    
     //Starting Array
     var topics = ["labrador", "pug", "dalmation"]
 
